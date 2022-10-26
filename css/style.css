@@ -19,8 +19,8 @@ header {
 
 .header-col-33 {
     width: calc(100% / 3);
-    text-align: center;
     padding: 10px 0px;
+    position: relative;
 }
 
 .header-span {
@@ -29,6 +29,15 @@ header {
 
 .logo {
     height: 30px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -30%);
+   
+}
+
+.icone {
+    text-align: right;
 }
 
 /* header */
@@ -38,10 +47,11 @@ header {
     margin: 0 auto;
     background-color: lightgray;
     height: 800px;
+    margin-bottom: 200px;
 }
 
 .row {
-    margin-top: 40px;
+    margin-top: 100px;
     height: 400px;
     background-color: aquamarine;
     display: flex;
@@ -60,7 +70,7 @@ main img {
 
 }
 
-.img-b:hover {
+.col-33:hover .img-b {
     display: none;
 }
 
@@ -76,7 +86,7 @@ main img {
 
 .main-span {
     position: relative;
-    top: 350px;
+    top: 280px;
     padding: 5px;
 }
 
@@ -90,7 +100,7 @@ main img {
 
 .info {
     position: relative;
-    top: 370px;
+    top: 400px;
 }
 
 .heart {
@@ -103,4 +113,25 @@ main img {
 
 .heart:hover {
     color: red;
+}
+
+.marca {
+    font-size: small;
+}
+
+.modello {
+    font-weight: bold;
+    font-size: large;
+}
+
+.prezzo {
+    color: red;
+}
+
+.vecchio-prezzo {
+    text-decoration: line-through;
+}
+
+.prezzo, .vecchio-prezzo {
+    font-size: small;
 }
