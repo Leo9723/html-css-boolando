@@ -11,7 +11,7 @@ header {
     height: 50px;
 }
 
-header .row {
+.header-row {
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -23,7 +23,7 @@ header .row {
     padding: 10px 0px;
 }
 
-span {
+.header-span {
     margin: 20px;
 }
 
@@ -31,3 +31,76 @@ span {
     height: 30px;
 }
 
+/* header */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: 800px;
+}
+
+.row {
+    margin-top: 40px;
+    height: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-33 {
+    width: 30%;
+    background-size: cover;
+    background-color: pink;
+    position: relative;
+}
+
+main img {
+    width: 100%;
+
+}
+
+.img-b:hover {
+    display: none;
+}
+
+.img-a {
+    position: absolute;
+    right: 0px;
+}
+
+.img-b {
+    position: absolute;
+    right: 0px;
+}
+
+.main-span {
+    position: relative;
+    top: 350px;
+    padding: 5px;
+}
+
+.bkg-red {
+    background-color: red;
+}
+
+.bkg-green {
+    background-color: green;
+}
+
+.info {
+    position: relative;
+    top: 370px;
+}
+
+.heart {
+    background-color: white;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.heart:hover {
+    color: red;
+}
