@@ -7,8 +7,9 @@
 
 header {
     color: white;
-    background-color: orange;
+    background-color: #E46003;
     height: 50px;
+    box-shadow: 5px 0px 5px black;
 }
 
 .header-row {
@@ -25,6 +26,7 @@ header {
 
 .header-span {
     margin: 20px;
+    font-weight: bold;
 }
 
 .logo {
@@ -45,23 +47,25 @@ header {
 .container {
     width: 70%;
     margin: 0 auto;
-    background-color: lightgray;
+
     height: 800px;
     margin-bottom: 200px;
 }
 
 .row {
-    margin-top: 100px;
-    height: 400px;
-    background-color: aquamarine;
+    margin-top: 100px; 
     display: flex;
     justify-content: space-between;
+}
+
+.row-2 {
+    position: relative;
+    top: 300px;
 }
 
 .col-33 {
     width: 30%;
     background-size: cover;
-    background-color: pink;
     position: relative;
 }
 
@@ -88,6 +92,7 @@ main img {
     position: relative;
     top: 280px;
     padding: 5px;
+    color: white;
 }
 
 .bkg-red {
@@ -96,6 +101,11 @@ main img {
 
 .bkg-green {
     background-color: green;
+}
+
+.bkg-green, .bkg-red {
+    font-weight: 300;
+    font-size: small;
 }
 
 .info {
@@ -121,11 +131,12 @@ main img {
 
 .modello {
     font-weight: bold;
-    font-size: large;
+    font-size: 300;
 }
 
 .prezzo {
     color: red;
+    font-weight: bold;
 }
 
 .vecchio-prezzo {
@@ -133,5 +144,43 @@ main img {
 }
 
 .prezzo, .vecchio-prezzo {
+    font-size: small;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.footer-row {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.nome {
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
+
+.ref {
+    text-align: right;
+    font-size: small;
+}
+
+.ref, .nome {
+    padding: 10px 0px;
+}
+
+.link {
+    padding-right: 5px;
     font-size: small;
 }
